@@ -122,7 +122,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -135,6 +135,58 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Template\css\bar.css" />
+    <Content Include="Content\Template\css\bootstrap.css" />
+    <Content Include="Content\Template\css\fontawesome-all.css" />
+    <Content Include="Content\Template\css\pignose.calender.css" />
+    <Content Include="Content\Template\css\simplyCountdown.css" />
+    <Content Include="Content\Template\css\style.css" />
+    <Content Include="Content\Template\css\style4.css" />
+    <Content Include="Content\Template\css\widgets.css" />
+    <Content Include="Content\Template\images\1.jpg" />
+    <Content Include="Content\Template\images\2.jpg" />
+    <Content Include="Content\Template\images\3.jpg" />
+    <Content Include="Content\Template\images\4.jpg" />
+    <Content Include="Content\Template\images\5.jpg" />
+    <Content Include="Content\Template\images\b1.jpg" />
+    <Content Include="Content\Template\images\ban1.jpg" />
+    <Content Include="Content\Template\images\ban2.jpg" />
+    <Content Include="Content\Template\images\ban3.jpg" />
+    <Content Include="Content\Template\images\ban4.jpg" />
+    <Content Include="Content\Template\images\ban5.jpg" />
+    <Content Include="Content\Template\images\ban6.jpg" />
+    <Content Include="Content\Template\images\c1.jpg" />
+    <Content Include="Content\Template\images\c2.jpg" />
+    <Content Include="Content\Template\images\c3.jpg" />
+    <Content Include="Content\Template\images\c4.jpg" />
+    <Content Include="Content\Template\images\clone.jpg" />
+    <Content Include="Content\Template\images\menu1.jpg" />
+    <Content Include="Content\Template\images\Preloader_2.gif" />
+    <Content Include="Content\Template\images\profile.jpg" />
+    <Content Include="Content\Template\images\timer.jpg" />
+    <Content Include="Content\Template\js\amcharts.js" />
+    <Content Include="Content\Template\js\bootstrap.min.js" />
+    <Content Include="Content\Template\js\chart1.js" />
+    <Content Include="Content\Template\js\circle_bar.js" />
+    <Content Include="Content\Template\js\example.js" />
+    <Content Include="Content\Template\js\index.js" />
+    <Content Include="Content\Template\js\jquery-2.2.3.min.js" />
+    <Content Include="Content\Template\js\jquery.charts.js" />
+    <Content Include="Content\Template\js\kuma-gauge.jquery.js" />
+    <Content Include="Content\Template\js\modernizr.js" />
+    <Content Include="Content\Template\js\moment.min.js" />
+    <Content Include="Content\Template\js\percentage-circles.js" />
+    <Content Include="Content\Template\js\pignose.calender.js" />
+    <Content Include="Content\Template\js\prettymaps.js" />
+    <Content Include="Content\Template\js\raphael-min.js" />
+    <Content Include="Content\Template\js\rumcaJS.js" />
+    <Content Include="Content\Template\js\script.js" />
+    <Content Include="Content\Template\js\SimpleChart.js" />
+    <Content Include="Content\Template\js\simplyCountdown.js" />
+    <Content Include="Content\Template\js\skycons.js" />
+    <Content Include="Content\Template\webfonts\fa-brands-400.svg" />
+    <Content Include="Content\Template\webfonts\fa-regular-400.svg" />
+    <Content Include="Content\Template\webfonts\fa-solid-900.svg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -160,6 +212,19 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Content\Template\images\Thumbs.db" />
+    <Content Include="Content\Template\webfonts\fa-brands-400.eot" />
+    <Content Include="Content\Template\webfonts\fa-brands-400.ttf" />
+    <Content Include="Content\Template\webfonts\fa-brands-400.woff" />
+    <Content Include="Content\Template\webfonts\fa-brands-400.woff2" />
+    <Content Include="Content\Template\webfonts\fa-regular-400.eot" />
+    <Content Include="Content\Template\webfonts\fa-regular-400.ttf" />
+    <Content Include="Content\Template\webfonts\fa-regular-400.woff" />
+    <Content Include="Content\Template\webfonts\fa-regular-400.woff2" />
+    <Content Include="Content\Template\webfonts\fa-solid-900.eot" />
+    <Content Include="Content\Template\webfonts\fa-solid-900.ttf" />
+    <Content Include="Content\Template\webfonts\fa-solid-900.woff" />
+    <Content Include="Content\Template\webfonts\fa-solid-900.woff2" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -187,12 +252,8 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\Web.config" />
-    <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\umd\popper.min.js.map" />
     <Content Include="Scripts\umd\popper.js.map" />
     <Content Include="Scripts\umd\popper-utils.min.js.map" />
@@ -202,6 +263,7 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
