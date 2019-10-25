@@ -74,3 +74,7 @@ E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\o
 E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\obj\Debug\OnlineAptitudeTest.csproj.CopyComplete
 E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\obj\Debug\OnlineAptitudeTest.dll
 E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\obj\Debug\OnlineAptitudeTest.pdb
+E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\bin\EntityFramework.dll
+E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\bin\EntityFramework.SqlServer.dll
+E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\bin\EntityFramework.xml
+E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\bin\EntityFramework.SqlServer.xml
