@@ -12,21 +12,29 @@ namespace OnlineAptitudeTest.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Role
+    public partial class Test
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Role()
+        public Test()
         {
-            this.Admin_Manager = new HashSet<Admin_Manager>();
             this.Candidates = new HashSet<Candidate>();
+            this.TestQuestions = new HashSet<TestQuestion>();
+            this.Candidates1 = new HashSet<Candidate>();
         }
     
-        public int RoleID { get; set; }
-        public string RoleName { get; set; }
+        public int TestCode { get; set; }
+        public int Time_To_Do { get; set; }
+        public System.DateTime TimeStart { get; set; }
+        public Nullable<System.DateTime> TimeCreate { get; set; }
+        public int CreateBy { get; set; }
+        public string Note { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Admin_Manager> Admin_Manager { get; set; }
+        public virtual Admin_Manager Admin_Manager { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Candidate> Candidates { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<TestQuestion> TestQuestions { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Candidate> Candidates1 { get; set; }
     }
 }

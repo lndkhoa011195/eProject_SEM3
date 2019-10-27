@@ -25,7 +25,13 @@ namespace OnlineAptitudeTest.Models
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Admin_Manager> Admin_Manager { get; set; }
+        public virtual DbSet<Candidate> Candidates { get; set; }
+        public virtual DbSet<Question> Questions { get; set; }
+        public virtual DbSet<QuestionType> QuestionTypes { get; set; }
         public virtual DbSet<Role> Roles { get; set; }
-        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Score> Scores { get; set; }
+        public virtual DbSet<Test> Tests { get; set; }
+        public virtual DbSet<TestQuestion> TestQuestions { get; set; }
     }
 }

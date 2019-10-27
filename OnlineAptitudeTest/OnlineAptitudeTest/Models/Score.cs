@@ -12,13 +12,14 @@ namespace OnlineAptitudeTest.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class User
+    public partial class Score
     {
-        public int UserID { get; set; }
-        public string Username { get; set; }
-        public string Password { get; set; }
-        public int RoleID { get; set; }
+        public int ScoreID { get; set; }
+        public int CandidateID { get; set; }
+        public double Part1Score { get; set; }
+        public double Part2Score { get; set; }
+        public double Part3Score { get; set; }
     
-        public virtual Role Role { get; set; }
+        public virtual Candidate Candidate { get; set; }
     }
 }

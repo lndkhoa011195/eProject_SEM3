@@ -12,21 +12,26 @@ namespace OnlineAptitudeTest.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Role
+    public partial class Question
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Role()
+        public Question()
         {
-            this.Admin_Manager = new HashSet<Admin_Manager>();
-            this.Candidates = new HashSet<Candidate>();
+            this.TestQuestions = new HashSet<TestQuestion>();
         }
     
-        public int RoleID { get; set; }
-        public string RoleName { get; set; }
+        public int QuestionID { get; set; }
+        public int TypeID { get; set; }
+        public string Question1 { get; set; }
+        public string Answer_a { get; set; }
+        public string Answer_b { get; set; }
+        public string Answer_c { get; set; }
+        public string Answer_d { get; set; }
+        public string CorrectAnswer { get; set; }
+        public Nullable<System.DateTime> TimeStamp { get; set; }
     
+        public virtual QuestionType QuestionType { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Admin_Manager> Admin_Manager { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Candidate> Candidates { get; set; }
+        public virtual ICollection<TestQuestion> TestQuestions { get; set; }
     }
 }

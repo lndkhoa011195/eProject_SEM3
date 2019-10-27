@@ -69,7 +69,6 @@ E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\b
 E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\bin\Newtonsoft.Json.xml
 E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\bin\Antlr3.Runtime.pdb
 E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\obj\Debug\OnlineAptitudeTest.csprojAssemblyReference.cache
 E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\obj\Debug\OnlineAptitudeTest.csproj.CoreCompileInputs.cache
 E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\obj\Debug\OnlineAptitudeTest.csproj.CopyComplete
 E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\obj\Debug\OnlineAptitudeTest.dll
@@ -78,3 +77,4 @@ E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\b
 E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\bin\EntityFramework.SqlServer.dll
 E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\bin\EntityFramework.xml
 E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\bin\EntityFramework.SqlServer.xml
+E:\SEM3\6. eProject\source\eProject_SEM3\OnlineAptitudeTest\OnlineAptitudeTest\obj\Debug\OnlineAptitudeTest.csprojAssemblyReference.cache
